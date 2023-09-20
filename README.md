@@ -24,6 +24,7 @@ assumptions made about the input.
 
 
 # Constructing the Binary Tree: 
+Taken 't' test cases :
 The input array is used to construct the binary tree. Nodes are created according to the array values. Nodes that should be NULL (0 in the array) are skipped during construction. All nodes are initially colored green ('G').
 
 # Coloring Outer Nodes: 
@@ -45,6 +46,9 @@ Finally, the right view is traversed, and nodes are colored alternately with Blu
 All remaining internal nodes of the tree are left in their default green color.
 
 This approach ensures that the binary tree is colored as specified, with outer nodes following an anticlockwise pattern of blue and red, while inner nodes remain green.
+
+# Output Format:
+Printing the respective color of Nodes of the Binary tree
 
 # Attached the some corner sample test cases with the respective output
 
