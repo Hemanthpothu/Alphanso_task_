@@ -27,7 +27,7 @@ assumptions made about the input.
 The input array is used to construct the binary tree. Nodes are created according to the array values. Nodes that should be NULL (0 in the array) are skipped during construction. All nodes are initially colored green ('G').
 
 # Coloring Outer Nodes: 
-The goal is to color the outer nodes of the tree in an anticlockwise manner with blue ('B') and red ('R') alternately.
+The goal is to color the outer nodes of the tree in an anticlockwise manner with Blue ('B') and Red ('R') alternately.
 
 # Handling Right Outer Nodes: 
 To prevent issues with the right view traversal, right outer nodes (nodes in the rightmost path) are stored in a set. This ensures that a single rightmost node is considered in the left traversal.
@@ -36,10 +36,10 @@ To prevent issues with the right view traversal, right outer nodes (nodes in the
 Left side traversal starts by coloring nodes with alternating blue and red, ensuring the last node of the left view is the first node of the bottom view.
 
 # Coloring Bottom View: 
-Leaf nodes (bottom view) are collected from left to right and colored alternately with blue and red.
+Leaf nodes (bottom view) are collected from left to right and colored alternately with Blue('B') and Red('R').
 
 # Coloring Right View: 
-Finally, the right view is traversed, and nodes are colored alternately with blue and red, starting from the last node of the bottom view.
+Finally, the right view is traversed, and nodes are colored alternately with Blue('B') and Red('R')., starting from the last node of the bottom view.
 
 # Remaining Inner Nodes: 
 All remaining internal nodes of the tree are left in their default green color.
